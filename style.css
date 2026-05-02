@@ -5,6 +5,13 @@ body { font-family: 'Poppins', sans-serif; line-height: 1.6; color: #333; backgr
 .hero { height: 100vh; background: #003366; color: white; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; }
 .hero img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; margin-bottom: 20px; }
 .quote { font-style: italic; font-size: 1.2rem; margin-top: 10px; }
+.hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Agar foto bulat */
+    object-fit: cover; /* Agar foto tidak gepeng */
+    border: 5px solid white;
+}
 
 /* Section Styles */
 section { padding: 60px 20px; max-width: 1000px; margin: auto; }
